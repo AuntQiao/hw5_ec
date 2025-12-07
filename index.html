@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW5 Framework Version - Preact</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Preact CDN -->
+  <script type="module">
+    import { h, render } from "https://esm.sh/preact";
+    import { useState, useEffect } from "https://esm.sh/preact/hooks";
+    import App from "./app.js";
+
+    render(h(App), document.getElementById("root"));
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+</html>
